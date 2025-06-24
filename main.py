@@ -11,7 +11,7 @@ class ImageApp:
     def __init__(self, root):
         """Приложение с главным окном"""
         self.root = root
-        self.root.title("Базовое приложение для обработки изображений")
+        self.root.title("Приложение для обработки изображений")
         self.image = None  # Исходное изображение в формате OpenCV (массив numpy)
         self.display_image = None  # Изображение для отображения в Tkinter
         self.modified = False  # Флаг для отслеживания изменений изображения
